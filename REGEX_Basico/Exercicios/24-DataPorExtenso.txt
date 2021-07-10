@@ -1,0 +1,4 @@
+Muito cuidado para não confundir non-capturing groups com os quantifier. Ambos utilizam o mesmo símbolo (?), contudo possuem objetivos diferentes. Relembrando:
+
+Non-Capturing group - (?:de\s+) (não deve devolver o grupo formado pela preposição de e por um \s)
+Quantifier - [a-z]? (a classe deve ocorrer zero ou uma vez)

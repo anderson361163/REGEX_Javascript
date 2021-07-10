@@ -1,0 +1,3 @@
+? (ponto de exclamação): Significa de 0 à 1 aparecição
+
+* (asterisco): Significa de 0 à mais vezes

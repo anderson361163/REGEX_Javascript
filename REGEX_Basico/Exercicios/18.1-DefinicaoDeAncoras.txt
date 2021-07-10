@@ -1,0 +1,2 @@
+Âncoras marcam uma posição específica no alvo, por isso não é possível combiná-las com um quantifier.
+Existem várias âncoras predefinidas, mas as mais comuns são ^, $ e \b. Lembrando também que os caracteres ^ e $ são meta-chars.

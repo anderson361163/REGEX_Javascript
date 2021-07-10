@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+     content="width=device-width,
+      initial-scale=1.0">
+    <title>Regex com Datas por Extenso</title>
+</head>
+<body>
+    <script>
+        var DIA  = "[0123]?\d"; 
+        var _DE_ = "\s+de\s+";
+        var MES  = "[A-Za-z][a-zç]{1,8}";
+        var ANO  = "[12]\d{3}";
+
+        var stringRegex = DIA + _DE_ +  MES + _DE_ + ANO;
+
+        var objetoRegex  = new RegExp(stringRegex, 'g');
+
+        console.log(objetoRegex);
+    </script>
+
+
+</body>
+</html>
